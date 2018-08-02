@@ -2,9 +2,7 @@
 set -e
 
 echo "##"
-echo "# Preparing to starting SonarQube"
-echo "# - removing all bundled plugins"
-rm -rf /opt/sonarqube/lib/bundled-plugins/sonar-*.jar
+echo "# Preparing to start SonarQube"
 
 echo "# - copy downloaded plugins to: ${SONARQUBE_HOME}/extensions/plugins/"
 cp -a $PLUGIN_DOWNLOAD_LOCATION/. $SONARQUBE_HOME/extensions/plugins/

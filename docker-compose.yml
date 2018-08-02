@@ -2,7 +2,7 @@ version: "2.0"
 
 services:
   sonarqube:
-    image: marcopas/docker-sonarqube
+    image: docker-sonarqube
     ports:
      - "9000:9000"
     links:
@@ -13,7 +13,7 @@ services:
      - SONARQUBE_JDBC_PASSWORD=sonar
      
   postgres:
-    image: postgres:9.5.3
+    image: postgres
     ports:
       - "5432:5432"
     volumes:
