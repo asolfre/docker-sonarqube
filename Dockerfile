@@ -14,7 +14,7 @@ RUN wget https://github.com/SonarSource/sonar-auth-bitbucket/releases/download/1
 RUN wget https://github.com/spotbugs/sonar-findbugs/releases/download/3.7.0/sonar-findbugs-plugin-3.7.0.jar
 RUN wget https://github.com/SonarQubeCommunity/sonar-pmd/releases/download/2.6/sonar-pmd-plugin-2.6.jar
 RUN wget https://github.com/checkstyle/sonar-checkstyle/releases/download/4.11/checkstyle-sonar-plugin-4.11.jar
-RUN wget https://dl.bintray.com/fundacionjala/enforce/apex-plugin-1.0b195.jar
+RUN wget https://dl.bintray.com/fundacionjala/enforce/apex-plugin-1.0b219.jar
 
 COPY docker-entrypoint.sh /opt/docker-entrypoint.sh
 RUN chmod +x /opt/docker-entrypoint.sh

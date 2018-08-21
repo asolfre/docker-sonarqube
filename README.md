@@ -21,4 +21,4 @@ There is an assumption you have installed docker-compose!
 * sonar-findbugs-plugin-3.7.0.jar
 * sonar-pmd-plugin-2.6.jar
 * checkstyle-sonar-plugin-4.11.jar
-* apex-plugin-1.0b195.jar
+* apex-plugin-1.0b219.jar
