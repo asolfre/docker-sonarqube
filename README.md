@@ -1,6 +1,6 @@
 # docker-sonarqube
 
-Docker image based on default [SonarQube](https://hub.docker.com/_/sonarqube/) with manually installed plugins. 
+Docker image based on default [SonarQube 6.7.5](https://hub.docker.com/_/sonarqube/) with manually installed plugins. 
 The default provided plugins are kept and some extra plugins are manually downloaded.
 
 To add/remove plugins modify the Dockerfile and build your own version.

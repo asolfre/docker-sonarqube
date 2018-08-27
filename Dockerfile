@@ -1,4 +1,4 @@
-FROM sonarqube
+FROM sonarqube:6.7.5
 MAINTAINER Angel Soliño "angel@nuvolar.eu"
 
 # create plugin download location; so we can copy them later when SonarQube is started
